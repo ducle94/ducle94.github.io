@@ -1,0 +1,26 @@
+h1,
+h2,
+h3 {
+    color: #561f55;
+}
+
+.text-primary {
+    color: #8b2f97!important;
+}
+
+.blur-background {
+    text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+}
+
+.bg-primary {
+    background-color: #8b2f97!important;
+}
+
+.picture {
+    width: 50%;
+    height: 50%;
+}
+
+.carousel-caption {
+    bottom: 0;
+}
