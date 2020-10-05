@@ -1,0 +1,91 @@
+{
+    "landing": {
+        "firstName": "Duc",
+        "lastName": "Le",
+        "phoneNumber": "0451589690",
+        "bio": "A proactive and strong communication skills 4th year IT student of OAMK with growing experiences of web and mobile development. Looking for oppotunity as trainee position to leverage my ICT knowledge as well as fulfilling my practical training studies.",
+        "email": "hieuduc.le94@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/ducle94",
+        "github": "https://github.com/ducle194"
+    },
+    "experience": [{
+            "position": "Oulu DevLAB Trainee",
+            "organization": "OAMK",
+            "location": "Finland",
+            "aboutWork": "Participants joining DevLab to learn how to incubated ideas, designed and developed solutions as an entrepreneur in a multidisciplinary and multicutural environment.",
+            "fromDate": "August 2019",
+            "toDate": "December 2019"
+        },
+        {
+            "position": "Teaching Assistant",
+            "organization": "VUS",
+            "location": "Vietnam",
+            "aboutWork": "Working as TA is responsile for class management, including paper work and preparing teaching equipment, as well as assist teachers in lessons and learning activities with students. Especially, pay attettion to study progress and lesson progress of each class and each student.",
+            "fromDate": "June 2015",
+            "toDate": "July 2016"
+        }
+    ],
+    "education": [{
+            "university": "Oulu Universtiy of Applied Sciences",
+            "country": "Finland",
+            "degree": "Bachelor of Engineering",
+            "major": "Information Technology",
+            "description": "",
+            "fromDate": "August 2016",
+            "toDate": "Present"
+        },
+        {
+            "university": "Sai Gon University",
+            "country": "Vienam",
+            "degree": "Bachelor in English",
+            "major": "Trading and Tourism",
+            "description": "",
+            "fromDate": "September 2013",
+            "toDate": "May 2016"
+        }
+    ],
+    "projects": [{
+        "name": "REMY",
+        "description": "A mobile application of which idea and prototype incubated in OAMK DevLab helps families manage their inventory storage and keep track expiration date to prevent food waste in household.",
+        "link": "http://teameat.me/"
+    }],
+    "skills": [{
+            "name": "HTML5"
+        },
+        {
+            "name": "CSS3"
+        },
+        {
+            "name": "Javascript"
+        },
+        {
+            "name": "Figma"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "Angular"
+        },
+        {
+            "name": "Nodejs"
+        },
+        {
+            "name": "PHP"
+        },
+        {
+            "name": "Java"
+        }
+    ],
+    "interests": {
+        "paragraphOne": "",
+        "paragraphTwo": ""
+    },
+    "awards": [{
+            "awardDetail": "Impact track's winners of sOULUtions 2019"
+        },
+        {
+            "awardDetail": "Connect with Finland project by KILKAS"
+        }
+    ]
+}
