@@ -15,10 +15,10 @@ class Landing extends Component {
           <h1 className="mb-0">{this.landingData.firstName}
             <span className="text-primary" style={{marginLeft:'0.1em'}}>{this.landingData.lastName}</span>
           </h1>
-          <div className="subheading mb-5">{this.landingData.phoneNumber} · 
+          <div className="subheading mb-3">{this.landingData.phoneNumber} · 
             <a href="mailto:name@email.com" className="text-primary" style={{marginLeft:'0.2em'}}>{this.landingData.email}</a>
           </div>
-          <p className="lead mb-5">{this.landingData.bio}</p>
+          <p className="lead mb-3">{this.landingData.bio}</p>
           <div className="social-icons">
             <a href={this.landingData.linkedin}>
               <FontAwesomeIcon icon={faLinkedin} />

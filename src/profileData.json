@@ -3,24 +3,24 @@
         "firstName": "Duc",
         "lastName": "Le",
         "phoneNumber": "0451589690",
-        "bio": "A proactive and strong communication skills 4th year IT student of OAMK with growing experiences of web and mobile development. Looking for oppotunity as trainee position to leverage my ICT knowledge as well as fulfilling my practical training studies.",
+        "bio": "A proactive and eager learner from OAMK's International IT Degree in final study of web and mobile applications. Looking for opportunities as trainee positions to leverage ICT knowledge as well as thesis topics if applicable.",
         "email": "hieuduc.le94@gmail.com",
         "linkedin": "https://www.linkedin.com/in/ducle94",
-        "github": "https://github.com/ducle194"
+        "github": "https://github.com/ducle94/ducle94.github.io"
     },
     "experience": [{
             "position": "Oulu DevLAB Trainee",
             "organization": "OAMK",
             "location": "Finland",
-            "aboutWork": "Participants joining DevLab to learn how to incubated ideas, designed and developed solutions as an entrepreneur in a multidisciplinary and multicutural environment.",
+            "aboutWork": "I participated in OAMK's DevLab to develop solution for Global Goals with entrepreneur mindset. The workflow was iterative from incubating ideas and then designing and developing solutions as a business idea with prototypes which would be validated by tutors and judges from OAMK teachers and BusinessOulu. In the final project, my task was mainly focus as a project manager and UI/UX designer for REMY mobile application.",
             "fromDate": "August 2019",
             "toDate": "December 2019"
         },
         {
             "position": "Teaching Assistant",
-            "organization": "VUS",
+            "organization": "VUS - VietNam US English Center",
             "location": "Vietnam",
-            "aboutWork": "Working as TA is responsile for class management, including paper work and preparing teaching equipment, as well as assist teachers in lessons and learning activities with students. Especially, pay attettion to study progress and lesson progress of each class and each student.",
+            "aboutWork": "My most important responsibilities are to conduct classroom management, from documenting class activities to preparing teaching equipments, as well as provide side-teaching activities with students in need of support. The other tasks include following study progress and lesson progress of each individual.",
             "fromDate": "June 2015",
             "toDate": "July 2016"
         }
@@ -30,51 +30,58 @@
             "country": "Finland",
             "degree": "Bachelor of Engineering",
             "major": "Information Technology",
-            "description": "",
+            "description": "Specialized in Web and Mobile Development and general of Internet Programming and Software Design",
             "fromDate": "August 2016",
-            "toDate": "Present"
+            "toDate": "12/2022"
         },
         {
             "university": "Sai Gon University",
-            "country": "Vienam",
+            "country": "Vietnam",
             "degree": "Bachelor in English",
             "major": "Trading and Tourism",
-            "description": "",
+            "description": "Specialized in Professional English used in Trading and Tourism field",
             "fromDate": "September 2013",
             "toDate": "May 2016"
         }
     ],
     "projects": [{
-        "name": "REMY",
-        "description": "A mobile application of which idea and prototype incubated in OAMK DevLab helps families manage their inventory storage and keep track expiration date to prevent food waste in household.",
-        "link": "http://teameat.me/"
-    }],
+            "name": "REMY",
+            "origin": "A mobile application of which idea and prototype incubated with teamEAT from OAMK's DevLab.",
+            "target": "The novel of REMY is to reduce household food waste in modern life with aid of mobile devices to manage food pantries and keep track expiration date with traffic light layout to raise awareness.",
+            "extension": "The final prototype was tested with 5 selected users and it added recipe list and shopping list features according to users' need.",
+            "link": "https://www.figma.com/proto/OP0bciyuGcdBM42QnwjP1U/REMY-1.0-(Adnroid-Phone-frame)?page-id=0%3A1&node-id=683%3A34&viewport=241%2C48%2C0.1&scaling=scale-down&starting-point-node-id=0%3A47"
+        },
+        {
+            "name": "ReversiAI",
+            "origin": "A web application from summer project of OAMK to learn React.js as a UI framework.",
+            "target": "This web app would host Othello game with multiplayers. Player can choose to practice with machine algorithm.",
+            "extension": "To allow multiplayer features, there must be authentication and a leader board to update best players.",
+            "link": "https://github.com/ducle194/reversi-game.git"
+        }
+    ],
     "skills": [{
-            "name": "HTML5"
+            "name": "Web developlement",
+            "tool": "HTML, CSS, Javascript, PHP, MySQL, Node.js"
         },
         {
-            "name": "CSS3"
+            "name": "Mobile developlement",
+            "tool": "React Native"
         },
         {
-            "name": "Javascript"
+            "name": "Version Control",
+            "tool": "Git"
         },
         {
-            "name": "Figma"
+            "name": "UI framework",
+            "tool": "React.js, Bootstrap"
         },
         {
-            "name": "React"
+            "name": "UI & UX design",
+            "tool": "Figma Prototype, User Research, Usability Testing"
         },
         {
-            "name": "Angular"
-        },
-        {
-            "name": "Nodejs"
-        },
-        {
-            "name": "PHP"
-        },
-        {
-            "name": "Java"
+            "name": "Google Cloud Platform",
+            "tool": "Compute Engine"
         }
     ],
     "interests": {
@@ -82,10 +89,10 @@
         "paragraphTwo": ""
     },
     "awards": [{
-            "awardDetail": "Impact track's winners of sOULUtions 2019"
+            "title": "Impact track's winners of sOULUtions 2019"
         },
         {
-            "awardDetail": "Connect with Finland project by KILKAS"
+            "title": "Connect with Finland project by KILKAS"
         }
     ]
 }

@@ -17,9 +17,10 @@ class Projects extends Component {
               <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
                   <h3 className="mb-0">{data.name}</h3>
-                  <p>{data.description}</p>
-                  <p>Below is the link about project's details: </p>
-                  <a href={data.link} target="_blank" rel="noopener noreferrer"git>teameat.me</a>
+                  <p className="lead mb-0">{data.origin}</p>
+                  <p className="lead mb-0">{data.target}</p>
+                  <p className="lead">{data.extension}</p>
+                  <a href={data.link} target="_blank" rel="noopener noreferrer" git="true">See the prototype</a>
                 </div>
               </div>
             ))

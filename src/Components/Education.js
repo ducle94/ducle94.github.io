@@ -17,8 +17,8 @@ class Education extends Component {
               <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
                   <h3 className="mb-0">{data.university}</h3>
-                  <div className="subheading mb-3">{data.degree} , {data.major}</div>
-                  <p>{data.description}</p>
+                  <div className="subheading mb-0">{data.degree} , {data.major}</div>
+                  <p className="lead">{data.description}</p>
                 </div>
                 <div className="resume-date text-md-right">
                   <span className="text-primary">{data.country} , </span>  

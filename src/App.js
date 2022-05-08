@@ -5,7 +5,6 @@ import Experience from './Components/Experience';
 import Education from './Components/Education';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
-import Interests from './Components/Interests';
 import Awards from './Components/Awards';
 import profileData from './profileData.json';
 

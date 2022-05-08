@@ -15,30 +15,30 @@ class Awards extends Component {
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
         <div className="w-100">
           <h2 className="mb-5">Awards &amp; Certifications</h2>
-          <ul className="fa-ul mb-0">
+          <div className="row">
           {
             this.awards.map((data, index) => (
-              <li key={index}>
+              <div key={index} className="col-12">
                 <FontAwesomeIcon icon={faAward} color="#ffc107" />
-                <span className="ml-2"> {data.awardDetail} </span>
-              </li>
+                <span className="lead ml-2"> {data.title} </span>
+              </div>
             ))
           }
-          </ul>
-          <div id="carouselExampleControls" className="carousel slide mt-3" data-interval="3000" data-pause="hover">
+          </div>
+          <div id="carouselExampleControls" className="carousel slide mt-3" data-interval="5000" data-pause="hover">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className="d-block w-100 h-75 picture mx-auto" src={require('../Assets/soulution2019.jpg')} alt="First slide"></img>
+                <img className="d-block w-100 h-65 picture mx-auto" src={require('../Assets/soulution2019.jpg')} alt="First slide"></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5 className="text-primary blur-background">sOULUtions2019</h5>
-                  <p>3-day hackathon event for students to look for new ideas and solutions for challenges from companies, researchers and the public sector</p>
+                  <h5 className="blur-background subheading high-light">sOULUtions2019</h5>
+                  <p className="high-light text-popup">3-day hackathon event to look for new ideas and solutions from companies, researchers and the public sector in Oulu</p>
                 </div>
               </div>
               <div className="carousel-item">
                 <img className="d-block w-100 h-65 picture mx-auto" src={require('../Assets/ConnectWithFinland.jpg')} alt="Second slide"></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5 className="text-primary blur-background">Connect with Finland</h5>
-                  <p>2 month project to help students realize their competences towards working life in Finland</p>
+                  <h5 className="blur-background subheading high-light">Connect with Finland in 2017</h5>
+                  <p className="high-light text-popup">2 month project to help students realize their competences towards working life in Finland</p>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ class Awards extends Component {
             </a>
         </div>
         <div className="mx-auto mt-3">
-          <p className="text-center" >Updated in January 2020   </p>
+          <p className="text-center" >Updated by May 2022   </p>
         </div>  
         </div>
       </section>
