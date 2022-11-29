@@ -3,26 +3,28 @@
         "firstName": "Duc",
         "lastName": "Le",
         "phoneNumber": "0451589690",
-        "bio": "A proactive and eager learner from OAMK's International IT Degree in final study of web and mobile applications. Looking for opportunities as trainee positions to leverage ICT knowledge as well as thesis topics if applicable.",
+        "bio": "A proactive and eager senior student from OAMK with experience of web and mobile UI developer. Looking for offers as trainee positions to enhance ICT knowledge and thesis topics if applicable.",
         "email": "hieuduc.le94@gmail.com",
         "linkedin": "https://www.linkedin.com/in/ducle94",
         "github": "https://github.com/ducle94/ducle94.github.io"
     },
     "experience": [{
-            "position": "Oulu DevLAB Trainee",
+            "position": "Oulu DevLAB Participant",
             "organization": "OAMK",
             "location": "Finland",
-            "aboutWork": "I participated in OAMK's DevLab to develop solution for Global Goals with entrepreneur mindset. The workflow was iterative from incubating ideas and then designing and developing solutions as a business idea with prototypes which would be validated by tutors and judges from OAMK teachers and BusinessOulu. In the final project, my task was mainly focus as a project manager and UI/UX designer for REMY mobile application.",
             "fromDate": "August 2019",
-            "toDate": "December 2019"
+            "toDate": "December 2019",
+            "aboutWork": "I participated in DevLab to develop solution for Global Goals with entrepreneur mindset. The workflow was iterative from incubating ideas to developing solutions as a business plan with prototypes. The final development was validated by tutors and judges from OAMK and BusinessOulu.",
+            "skill": "Business Development, Project Managment, Agile Development, UI & UX Design"
         },
         {
             "position": "Teaching Assistant",
             "organization": "VUS - VietNam US English Center",
             "location": "Vietnam",
-            "aboutWork": "My most important responsibilities are to conduct classroom management, from documenting class activities to preparing teaching equipments, as well as provide side-teaching activities with students in need of support. The other tasks include following study progress and lesson progress of each individual.",
             "fromDate": "June 2015",
-            "toDate": "July 2016"
+            "toDate": "July 2016",
+            "aboutWork": "I practiced my Professional English to support International teachers and Vietnamese students during lession. Other than that, I managed classroom documents and equipments according to VUS center's guideline.",
+            "skill": "Team Work, English Teaching, Tutoring, Classroom Managment"
         }
     ],
     "education": [{
@@ -54,7 +56,7 @@
         {
             "name": "ReversiAI",
             "origin": "A web application from summer project of OAMK to learn React.js as a UI framework.",
-            "target": "This web app would host Othello game with multiplayers. Player can choose to practice with machine algorithm.",
+            "target": "This web app would host Reversi/Othello game with multiplayers. Player can choose to practice with machine algorithm.",
             "extension": "To allow multiplayer features, there must be authentication and a leader board to update best players.",
             "link": "https://github.com/ducle194/reversi-game.git"
         }

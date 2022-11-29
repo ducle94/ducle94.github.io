@@ -30,15 +30,15 @@ class Awards extends Component {
               <div className="carousel-item active">
                 <img className="d-block w-100 h-65 picture mx-auto" src={require('../Assets/soulution2019.jpg')} alt="First slide"></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5 className="blur-background subheading high-light">sOULUtions2019</h5>
-                  <p className="high-light text-popup">3-day hackathon event to look for new ideas and solutions from companies, researchers and the public sector in Oulu</p>
+                  <h5 className="blur-background high-light text-popup">sOULUtions2019</h5>
+                  <p className="text-popup">3-day hackathon event to look for new ideas and solutions from companies, researchers and the public sector in Oulu</p>
                 </div>
               </div>
               <div className="carousel-item">
                 <img className="d-block w-100 h-65 picture mx-auto" src={require('../Assets/ConnectWithFinland.jpg')} alt="Second slide"></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5 className="blur-background subheading high-light">Connect with Finland in 2017</h5>
-                  <p className="high-light text-popup">2 month project to help students realize their competences towards working life in Finland</p>
+                  <h5 className="blur-background high-light text-popup">Connect with Finland in 2017</h5>
+                  <p className="text-popup">2 month project to help students realize their competences towards working life in Finland</p>
                 </div>
               </div>
             </div>
